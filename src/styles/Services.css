@@ -1,0 +1,15 @@
+.services {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    max-width: 300px;
+  }
+  

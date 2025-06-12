@@ -1,0 +1,56 @@
+{
+  "Airport Taxi": {
+    "table": [
+      { "vehicle": "Sedan", "seat": "4+Driver", "oneWayPrice": "1400 Rs" },
+      { "vehicle": "Sedan (Premium/Honda)", "seat": "4+Driver", "oneWayPrice": "1700 Rs" },
+      { "vehicle": "Ertiga", "seat": "6+Driver", "oneWayPrice": "1800 Rs" },
+      { "vehicle": "Innova", "seat": "7+Driver", "oneWayPrice": "2200 Rs" },
+      { "vehicle": "Innova (H Cross)", "seat": "7+Driver", "oneWayPrice": "2800 Rs" },
+      { "vehicle": "Crysta", "seat": "7+Driver", "oneWayPrice": "2500 Rs" },
+      { "vehicle": "Fortuner", "seat": "7+Driver", "oneWayPrice": "6000 Rs" },
+      { "vehicle": "Benz E Class", "seat": "4+Driver", "oneWayPrice": "9000 Rs" }
+    ],
+    "termsAndConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. All bookings are subject to availability and confirmation. Toll charges are included in the pricing. For booking and inquiries, please contact us directly.",
+    "packages": "Choose from multiple flexible packages for every need. We offer one-way, round-trip, and customized packages.",
+    "cancellationAndReturns": "Cancellations are allowed up to 24 hours before the ride. A cancellation fee of 10% will apply if canceled after that.",
+    "refunds": "Refunds will be processed within 7-10 working days. Please note that the refund amount may vary depending on the time of cancellation.",
+    "contact": "For booking, please call or email us at +91 123 456 7890 or contact@airporttaxis.com."
+  },
+  
+    "Local Taxi": {
+      "table": [
+      { "vehicle": "Sedan", "seat": "4+Driver", "8HoursPrice": "2500 Rs", "extraKmPrice": "15 Rs/km", "extraHours": "175 Rs/hour" },
+      { "vehicle": "Sedan (Premium/Honda)", "seat": "4+Driver", "8HoursPrice": "2700 Rs", "extraKmPrice": "16 Rs/km", "extraHours": "200 Rs/hour" },
+      { "vehicle": "Ertiga", "seat": "6+Driver", "8HoursPrice": "2800 Rs", "extraKmPrice": "17 Rs/km", "extraHours": "200 Rs/hour" },
+      { "vehicle": "Innova", "seat": "7+Driver", "8HoursPrice": "3000 Rs", "extraKmPrice": "18 Rs/km", "extraHours": "250 Rs/hour" },
+      { "vehicle": "Innova (H Cross)", "seat": "7+Driver", "8HoursPrice": "3800 Rs", "extraKmPrice": "25 Rs/km", "extraHours": "300 Rs/hour" },
+      { "vehicle": "Crysta", "seat": "7+Driver", "8HoursPrice": "3300 Rs", "extraKmPrice": "22 Rs/km", "extraHours": "250 Rs/hour" },
+      { "vehicle": "Fortuner", "seat": "7+Driver", "8HoursPrice": "6000 Rs", "extraKmPrice": "55 Rs/km", "extraHours": "550 Rs/hour" },
+      { "vehicle": "Benz E Class", "seat": "4+Driver", "8HoursPrice": "10000 Rs", "extraKmPrice": "100 Rs/km", "extraHours": "1000 Rs/hour" }
+    ],
+    "termsAndConditions": "Minimum 80 km per day for local travel. Extra charges apply for additional kilometers. Rates may vary for longer durations or special requests. Toll charges are included in the pricing. For booking and inquiries, please contact us directly.",
+    "packages": "Flexible daily packages with driver and fuel included for local travel. Customizable packages for extended usage available.",
+    "cancellationAndReturns": "Cancellations must be made 24 hours in advance. A 10% cancellation fee will apply if canceled later.",
+    "refunds": "Refunds will be processed within 7-10 working days, after deduction of applicable charges.",
+    "contact": "For booking, please call or email us at +91 123 456 7890 or contact@localtaxis.com."
+    },
+  
+    "Outstation Taxi": {
+      "table": [
+        { "vehicle": "Sedan", "seats": "4+Driver", "minDistance": "300 km", "kmPrice": "12 Rs/km", "driverAllowance": "500 Rs" },
+        { "vehicle": "Sedan (Premium/Honda)", "seats": "4+Driver", "minDistance": "300 km", "kmPrice": "15 Rs/km", "driverAllowance": "500 Rs" },
+        { "vehicle": "Ertiga", "seats": "6+Driver", "minDistance": "300 km", "kmPrice": "18 Rs/km", "driverAllowance": "600 Rs" },
+        { "vehicle": "Innova", "seats": "7+Driver", "minDistance": "300 km", "kmPrice": "20 Rs/km", "driverAllowance": "700 Rs" },
+        { "vehicle": "Innova (H Cross)", "seats": "7+Driver", "minDistance": "300 km", "kmPrice": "22 Rs/km", "driverAllowance": "800 Rs" },
+        { "vehicle": "Crysta", "seats": "7+Driver", "minDistance": "300 km", "kmPrice": "25 Rs/km", "driverAllowance": "900 Rs" },
+        { "vehicle": "Fortuner", "seats": "7+Driver", "minDistance": "300 km", "kmPrice": "35 Rs/km", "driverAllowance": "1000 Rs" },
+        { "vehicle": "Benz E Class", "seats": "4+Driver", "minDistance": "300 km", "kmPrice": "50 Rs/km", "driverAllowance": "1200 Rs" }
+      ],
+      "termsAndConditions": "Outstation Distance and time will start and end at the customer's pick-up point. Parking, toll, and permit charges will be extra as per actual. Driver allowance will be extra if the driver drives between 10 PM to 6 AM. One day means one calendar day (from midnight 12 AM to midnight 11:59 PM). In case of peak times or high demand, rates may increase. All vehicles are our own fleet vehicles.",
+    "packages": "Outstation packages include fuel, driver, and vehicle for a fixed number of kilometers per day. Extended hours or additional days will incur extra charges.",
+    "cancellationAndReturns": "Cancellations must be made 48 hours in advance. A 20% cancellation fee applies if canceled later.",
+    "refunds": "Refunds will be processed within 7-10 business days after cancellation, with deductions for any applicable charges.",
+    "contact": "For booking, please call or email us at +91 123 456 7890 or contact@outstationtaxis.com."
+  }
+  }
+  

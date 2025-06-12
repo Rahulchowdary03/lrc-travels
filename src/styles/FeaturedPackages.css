@@ -1,0 +1,16 @@
+.featured-packages {
+  background-color:'#f9f9f9' ;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .package-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .package-card {
+    max-width: 300px;
+  }
+  

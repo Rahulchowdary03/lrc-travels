@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Bengaluru to Goa Adventure",
+    "image": "/tour-images/goa.jpg",
+    "highlights": "Beachside stays, water sports, nightlife",
+    "places": ["Baga Beach", "Calangute Beach", "Anjuna Beach", "Dudhsagar Falls"],
+    "description": "Experience the best of Goa with its beautiful beaches, vibrant nightlife, and thrilling water sports."
+  },
+  {
+    "title": "Bengaluru to Gokarna Spiritual Escape",
+    "image": "/tour-images/Gokarna.webp",
+    "highlights": "Serene beaches, ancient temples",
+    "places": ["Om Beach", "Mahabaleshwar Temple", "Kudle Beach", "Paradise Beach"],
+    "description": "Relax in the tranquil surroundings of Gokarna, known for its spiritual vibe and pristine beaches."
+  },
+  {
+    "title": "Bengaluru to Wayanad Nature Retreat",
+    "image": "/tour-images/wayanad.jpg",
+    "highlights": "Hill stations, waterfalls, wildlife",
+    "places": ["Edakkal Caves", "Soochipara Falls", "Wayanad Wildlife Sanctuary", "Banasura Sagar Dam"],
+    "description": "Rejuvenate in the lush greenery of Wayanad with its breathtaking landscapes and rich wildlife."
+  },
+  {
+    "title": "Bengaluru to Tirupati Pilgrimage",
+    "image": "/tour-images/tirupati.jpg",
+    "highlights": "Spiritual journey, famous temples",
+    "places": ["Tirumala Temple", "Kapila Theertham", "Silathoranam", "Sri Venkateswara National Park"],
+    "description": "Embark on a spiritual journey to Tirupati, home to the world-famous Tirumala Temple."
+  },
+  {
+    "title": "Bengaluru to Hyderabad City Tour",
+    "image": "/tour-images/Hyderabad.jpg",
+    "highlights": "Charminar, Ramoji Film City, iconic food",
+    "places": ["Charminar", "Golconda Fort", "Ramoji Film City", "Hussain Sagar Lake"],
+    "description": "Explore the cultural and historical richness of Hyderabad with its iconic landmarks and vibrant food scene."
+  },
+  {
+    "title": "Bengaluru to Chennai Coastal Exploration",
+    "image": "/tour-images/Chennai.png",
+    "highlights": "Marina Beach, temples, local cuisine",
+    "places": ["Marina Beach", "Kapaleeshwarar Temple", "Fort St. George", "Santhome Cathedral"],
+    "description": "Experience the charm of Chennai with its beautiful coastline, cultural heritage, and delicious cuisine."
+  },
+  {
+    "title": "Bengaluru to Hampi Historical Tour",
+    "image": "/tour-images/Hampi.jpg",
+    "highlights": "Ancient temples, stunning ruins",
+    "places": ["Virupaksha Temple", "Vithala Temple", "Hampi Bazaar", "Lotus Mahal"],
+    "description": "Discover the grandeur of the ancient Vijayanagara Empire in Hampi with its stunning ruins and temples."
+  },
+  {
+    "title": "Bengaluru to Mysore Heritage",
+    "image": "/tour-images/Mysore.jpg",
+    "highlights": "Royal palaces, gardens",
+    "places": ["Mysore Palace", "Chamundi Hill", "Brindavan Gardens", "Jaganmohan Palace"],
+    "description": "Discover the royal heritage of Mysore with its beautiful palaces, gardens, and vibrant culture."
+  },
+  {
+    "title": "Bengaluru to Kodagu Nature Walk",
+    "image": "/tour-images/kodagu.webp",
+    "highlights": "Coffee plantations, waterfalls, trekking",
+    "places": ["Abbey Falls", "Nisargadhama", "Dubare Elephant Camp", "Tadiandamol Peak"],
+    "description": "Get lost in the lush greenery of Kodagu, famous for its coffee plantations, serene landscapes, and trekking trails."
+  },
+  {
+    "title": "Bengaluru to Hubballi Excursion",
+    "image": "/tour-images/hubballi.webp",
+    "highlights": "Unexplored trails, cultural spots",
+    "places": ["Unkal Lake", "Nrupatunga Hill", "Chandramouleshwara Temple", "Indira Gandhi Glass House"],
+    "description": "Discover the hidden gems of Hubballi with its serene spots, historical sites, and vibrant local culture."
+  },
+  {
+    "title": "Bengaluru to Pondicherry French Delight",
+    "image": "/tour-images/Pondicherry.jpg",
+    "highlights": "Colonial architecture, scenic beaches",
+    "places": ["Rock Beach", "Auroville", "Promenade Beach", "French Quarter"],
+    "description": "Dive into the French-inspired charm of Pondicherry with its scenic beaches, colonial architecture, and tranquil vibe."
+  },
+  {
+    "title": "Bengaluru to Rameshwaram Pilgrimage",
+    "image": "/tour-images/rameshwaram.webp",
+    "highlights": "Spiritual exploration, iconic bridges",
+    "places": ["Ramanathaswamy Temple", "Pamban Bridge", "Dhanushkodi Beach", "Adam's Bridge"],
+    "description": "Embark on a spiritual journey to Rameshwaram, a holy site of immense significance with stunning views."
+  },
+  {
+    "title": "Bengaluru to Badami Cave Temples Tour",
+    "image": "/tour-images/badami.webp",
+    "highlights": "Cave temples, historical treasures",
+    "places": ["Badami Cave Temples", "Agastya Lake", "Bhutanatha Temple", "Pattadakal"],
+    "description": "Explore the ancient rock-cut temples of Badami, a marvel of Indian heritage and architectural brilliance."
+  },
+  {
+    "title": "Bengaluru to Kodaikanal Hill Escape",
+    "image": "/tour-images/kodaikanal.jpg",
+    "highlights": "Lake views, serene hills",
+    "places": ["Kodaikanal Lake", "Coaker's Walk", "Bryant Park", "Pillar Rocks"],
+    "description": "Relax in the misty hills of Kodaikanal, known as the 'Princess of Hill Stations,' with breathtaking landscapes."
+  },
+  {
+    "title": "Bengaluru to Ooty Scenic Adventure",
+    "image": "/tour-images/ooty.png",
+    "highlights": "Tea plantations, mountain views",
+    "places": ["Ooty Lake", "Botanical Gardens", "Doddabetta Peak", "Coonoor"],
+    "description": "Soak in the beauty of Ooty, a picturesque hill station surrounded by the Nilgiris and verdant tea plantations."
+  },
+  {
+    "title": "Bengaluru to Alleppey Backwaters",
+    "image": "/tour-images/alleppey.jpg",
+    "highlights": "Houseboats, serene waterways",
+    "places": ["Alleppey Backwaters", "Vembanad Lake", "Marari Beach", "Pathiramanal Island"],
+    "description": "Drift through the tranquil backwaters of Alleppey in a houseboat for a unique and serene experience."
+  },
+  {
+    "title": "Bengaluru to Munnar Tea Paradise",
+    "image": "/tour-images/munnar.webp",
+    "highlights": "Tea gardens, rolling hills",
+    "places": ["Eravikulam National Park", "Tea Museum", "Mattupetty Dam", "Top Station"],
+    "description": "Immerse yourself in the lush tea gardens and misty hills of Munnar, a haven for nature lovers."
+  }
+]
+

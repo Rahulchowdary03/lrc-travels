@@ -1,0 +1,103 @@
+/* AppBar styling */
+:root {
+  --primary-color: #FF6B6B;
+  --secondary-color: #4ECDC4;
+  --text-dark: #333;
+  --text-light: #fff;
+  --background-light: #f8f9fa;
+  --transition-speed: 0.3s;
+}
+.appbar {
+  background: linear-gradient(90deg, #3a6186, #89253e); /* Gradient for travel-themed header */
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Navigation bar */
+.nav-bar {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-btn {
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #f0a500;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  margin-right: 5px;
+}
+
+.contact-text {
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Mobile Menu */
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none; /* Hide desktop menu */
+  }
+
+  .menu-icon {
+    display: block; /* Show mobile menu icon */
+  }
+}
+
+.mobile-menu {
+  width: 250px;
+  background-color: #3a6186;
+  color: white;
+}
+
+.mobile-menu .MuiListItemText-root {
+  text-align: center;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}

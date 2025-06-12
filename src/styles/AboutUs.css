@@ -1,0 +1,63 @@
+.about-us {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+.about-us-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.floating-element {
+  animation: float 6s ease-in-out infinite;
+}
+
+.testimonialSwiper {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.testimonialSwiper .swiper-slide {
+  width: 300px;
+  height: auto;
+}
+
+.destination-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.destination-image-container img {
+  transition: transform 0.3s ease;
+}
+
+.destination-image-container:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.stat-card:hover {
+  animation: pulse 2s infinite;
+}
+  
