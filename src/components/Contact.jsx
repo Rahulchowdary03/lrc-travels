@@ -179,7 +179,8 @@ function Contact() {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7036.413927640747!2d77.70031117454684!3d12.98813901451657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae110df2272f2f%3A0xc857f5d206b0d88e!2sSri%20Lakshmi%20pg%20for%20gents!5e1!3m2!1sen!2sin!4v1749715704605!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
-                  style={{ border: 0 }} // Fixed: valid border value
+                  style={{ border: 0 }}
+                  title="Location map for Sri Lakshmi PG for Gents"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

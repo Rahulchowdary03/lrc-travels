@@ -6,12 +6,11 @@ import AboutUs from '../components/AboutUs';
 import Services from '../components/Services';
 import FeaturedPackages from '../components/FeaturedPackages';
 import Contact from '../components/Contact';
-
 import WhyChooseUs from '../components/WhyChooseUs';
 import PersistentIcons from '../components/PersistentIcons';
 import { motion, useAnimation } from 'framer-motion';
-import logoImage from '../assets/rskLogo.png'; // Replace with your logo path
-import '../styles/smoke.css'; // Add CSS for smoke effect
+import logoImage from '../assets/rskLogo.png';
+import '../styles/smoke.css';
 import { useLocation } from 'react-router-dom';
 
 export default function HomePage() {
@@ -29,41 +28,29 @@ export default function HomePage() {
     const animationSequence = async () => {
       if (!showSplash) return;
 
-      // First animate the logo
       await logoControls.start({
         scale: [0, 1],
         opacity: [0, 1],
         transition: { duration: 1.5 }
       });
 
-      // Wait to show logo
       await new Promise(resolve => setTimeout(resolve, 1500));
 
-      // Show car and prepare curtain
       setShowCar(true);
       
-      // Ensure curtain is in initial position
       await curtainControls.set({ x: 0 });
 
-      // Animate car and curtain together
       await Promise.all([
         carControls.start({
           x: ['calc(-100% - 300px)', '100%'],
-          transition: { 
-            duration: 4,
-            ease: "linear"
-          }
+          transition: { duration: 4, ease: "linear" }
         }),
         curtainControls.start({
           x: ['0%', '100%'],
-          transition: { 
-            duration: 4,
-            ease: "linear"
-          }
+          transition: { duration: 4, ease: "linear" }
         })
       ]);
 
-      // End splash screen
       setTimeout(() => {
         setShowSplash(false);
         localStorage.setItem('hasVisitedBefore', 'true');
@@ -74,7 +61,6 @@ export default function HomePage() {
   }, [carControls, logoControls, curtainControls]);
 
   useEffect(() => {
-    // Handle scroll to section after navigation
     if (location.state?.scrollTo) {
       const section = document.getElementById(location.state.scrollTo);
       if (section) {
@@ -86,7 +72,6 @@ export default function HomePage() {
   }, [location]);
 
   useEffect(() => {
-    // Wait for splash screen to finish
     if (!showSplash && window.location.hash) {
       const id = window.location.hash.replace('#', '');
       const element = document.getElementById(id);
@@ -96,7 +81,7 @@ export default function HomePage() {
         }, 100);
       }
     }
-  }, [showSplash]);
+  }, [showSplash, window.location.hash]);
 
   return (
     <>
@@ -113,7 +98,6 @@ export default function HomePage() {
             overflow: 'hidden',
           }}
         >
-          {/* Black curtain */}
           <motion.div
             animate={curtainControls}
             initial={{ x: 0 }}
@@ -130,7 +114,6 @@ export default function HomePage() {
 
           {showCar && (
             <>
-              {/* Car with welcome text */}
               <motion.div
                 animate={carControls}
                 initial={{ x: 'calc(-100% - 300px)' }}
@@ -253,7 +236,6 @@ export default function HomePage() {
             </>
           )}
 
-          {/* Centered Logo */}
           <motion.img
             src={logoImage}
             alt="Logo"
