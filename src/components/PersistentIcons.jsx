@@ -19,8 +19,8 @@ const vibrate = keyframes`
 `;
 
 const PersistentIcons = () => {
-  const whatsappLink = "https://wa.me/919876543210"; // Replace with your WhatsApp number
-  const callNowLink = "tel:+919876543210"; // Replace with your phone number
+  const whatsappLink = "https://wa.me/919441472754"; // Replace with your WhatsApp number
+  const callNowLink = "tel:+919441472754"; // Replace with your phone number
 
   return (
     <Box>
